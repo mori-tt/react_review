@@ -1,10 +1,11 @@
 import Footer from "./components/Footer";
 import ReviewList from "./components/ReviewList";
+import ReviewSummary from "./components/ReviewSummary";
 
 const SummarySection = () => {
   return (
     <div className="w-2/5 h-full overflow-hidden pl-20">
-      {/* <ReviewSummary /> */}
+      <ReviewSummary />
     </div>
   );
 };
