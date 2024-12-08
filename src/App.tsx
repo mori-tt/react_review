@@ -1,7 +1,12 @@
+import { Badge } from "./components/ui/badge";
+
 function App() {
   return (
     <>
-      <h1 className="text-5xl text-blue-500">Vite + React</h1>
+      <Badge>Badge test</Badge>
+      <Badge variant="secondary">Badge test</Badge>
+      <Badge variant="outline">Badge test</Badge>
+      <Badge variant="destructive">Badge test</Badge>
     </>
   );
 }
